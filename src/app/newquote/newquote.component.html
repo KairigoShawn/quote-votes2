@@ -1,0 +1,16 @@
+<div class="container">
+  <div class="points">
+    <div>{{newquote.votes}}</div>
+    <div>points</div>
+  </div>
+  <div class="info">
+    <div>
+      <a href="{{newquote.quote}}">{{newquote.name}}</a>
+      <div>{{newquote.quote}}</div>
+    </div>
+    <div class="vote">
+      <div (click)="vote_up()">upvote</div>
+      <div (click)="vote_down()">downvote</div>
+    </div>
+  </div>
+</div>
