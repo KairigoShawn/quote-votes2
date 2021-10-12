@@ -1,0 +1,23 @@
+.container{
+  width: 35%;
+  margin: 0 auto;
+  background-color: rgba(128, 128, 128, 0.384);
+  padding: 0 1rem 1rem;
+  border-radius: 0.2rem;
+  border: 2px solid gray;
+}
+
+.name_container, .quote_container{
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+}
+
+.name_container>input, .quote_container>input{
+  height: 1.5rem;
+}
+
+.submit_btn{
+  display: block;
+  margin: 0.7rem, 0.5rem, 0 auto;
+}
