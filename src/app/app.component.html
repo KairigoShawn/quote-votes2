@@ -1,17 +1,35 @@
-<div class="container">
-  <h3>add a link</h3>
-  <div class="name_container">
-    <label for="name">Name:</label>
-    <input type="text" id="name" #name>
-  </div>
-  <div class="quote_container">
-    <label for="quote">Quote:</label>
-    <input type="text" id="quote" #quote>
-  </div>
-  <button class="submit_btn" (click)="add_quote(name, quote)">Submit</button>
-</div>
+<div class="body">
+  <div class="intro">
+    <h1>Welcome to <em>QUOTE VOTES</em></h1>
+    <h2>
+      A quote generatorthat allows you to generate quotes and have them upvoted
+      or downvoted
+    </h2>
 
-<!--newquote component-->
-<div>
-  <app-newquote *ngFor="let newquote of newquote" [newquote]="newquote"></app-newquote>
+    <p>Introducing our first ever quote generator application</p>
+    <p>
+      This app allows you to be creative and write some of the best quotes you
+      have heard in your life time.
+    </p>
+  </div>
+  <div class="container">
+    <h3>Add a Quote</h3>
+    <div class="name_container">
+      <label for="name">Name: (Please indicate the name of the quote author)</label>
+      <input type="text" id="name" #name />
+    </div>
+    <div class="quote_container">
+      <label for="quote">Quote: (Write the quote in here)</label>
+      <input type="text" id="quote" #quote />
+    </div>
+    <button class="submit_btn" (click)="add_quote(name, quote)">Submit</button>
+  </div>
+
+  <!--newquote component-->
+  <div>
+    <app-newquote
+      *ngFor="let newquote of newquote"
+      [newquote]="newquote"
+    ></app-newquote>
+  </div>
 </div>
