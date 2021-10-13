@@ -12,9 +12,9 @@ export class AppComponent {
 
   constructor() {
     this.newquote = [
-      new Newquote('Angular', 'http://angular.io', 3),
-      new Newquote('Fullstack', 'http://fullstack.io', 2),
-      new Newquote('Angular homepage', 'http://angular.io', 1),
+      new Newquote('Wizo Tano Nane', 'Kwani ni Kesho?', 3),
+      new Newquote('Bob Marley', 'One thing about music, when it hits you, you feel no pain', 2),
+      new Newquote('A bitter Kenyan', 'Mtaa acgana tu!', 1),
     ]
   }
 
