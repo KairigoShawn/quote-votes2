@@ -1,3 +1,17 @@
+.intro{
+  text-align: center;
+}
+
+.intro, .h1{
+  font-style: italic;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30px;
+}
+
+.body{
+  background-color: darkgray;
+}
+
 .container{
   width: 35%;
   margin: 0 auto;
@@ -5,6 +19,7 @@
   padding: 0 1rem 1rem;
   border-radius: 0.2rem;
   border: 2px solid gray;
+  margin-bottom: 20px;
 }
 
 .name_container, .quote_container{
