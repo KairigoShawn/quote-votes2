@@ -14,7 +14,7 @@ export class AppComponent {
     this.newquote = [
       new Newquote('Wizo Tano Nane', 'Kwani ni Kesho?', 3),
       new Newquote('Bob Marley', 'One thing about music, when it hits you, you feel no pain', 2),
-      new Newquote('A bitter Kenyan', 'Mtaa acgana tu!', 1),
+      new Newquote('A bitter Kenyan', 'Mtaa achana tu!', 1),
     ]
   }
 
